@@ -40,22 +40,10 @@ namespace Laba5_2semestr
                         }
                         break;
                     case 2:
-                        Console.WriteLine("Задача 1 - 1");
-                        Console.WriteLine("Задача 2 - 2");
-                        Console.Write("Введiть варiант: ");
-                        choice = int.Parse(Console.ReadLine());
-                        Console.Clear();
-                        switch (choice)
-                        {
-                            case 1:
-                                Task1_Shab task1_shab = new Task1_Shab();
+
+                        Shab.Shab task1_shab = new Shab.Shab();
                                 task1_shab.Main();
-                                break;
-                            case 2:
-                                Task2_Shab task2_shab = new Task2_Shab();
-                                task2_shab.Main();
-                                break;
-                        }
+                     
                         break;
                 }
             } while (choice != 0);
