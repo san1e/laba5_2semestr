@@ -1,0 +1,15 @@
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\bin\Debug\net6.0\Laba5_2semestr.exe
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\bin\Debug\net6.0\Laba5_2semestr.deps.json
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\bin\Debug\net6.0\Laba5_2semestr.runtimeconfig.json
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\bin\Debug\net6.0\Laba5_2semestr.dll
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\bin\Debug\net6.0\Laba5_2semestr.pdb
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.AssemblyInfo.cs
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.dll
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\refint\Laba5_2semestr.dll
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.pdb
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\Laba5_2semestr.genruntimeconfig.cache
+\\Mac\Home\Desktop\univer\PALM_2_SEMESTR\Laba5_2semestr\Laba5_2semestr\obj\Debug\net6.0\ref\Laba5_2semestr.dll
