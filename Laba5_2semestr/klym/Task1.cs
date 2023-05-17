@@ -10,12 +10,10 @@ public partial class Task1
 
         public MyFrac(long nom1, long denom1)
         {
-            // скорочення дробу
             long gcd = GCD(nom1, denom1);
             nom = nom1 / gcd;
             denom = denom1 / gcd;
 
-            // перевiрка знака знаменника та корекцiя чисельника
             if (denom < 0)
             {
                 nom = -nom;
@@ -28,7 +26,6 @@ public partial class Task1
             return $"{nom}/{denom}";
         }
 
-        // знаходження НСД двох чисел (алгоритм Евклiда)
         public long GCD(long a, long b)
         {
             a = Math.Abs(a);

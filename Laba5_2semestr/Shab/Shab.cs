@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laba5_2semestr.Shab
 {
+    public partial class Shab { 
     struct MyTime
     {
         public int hour, minute, second;
@@ -22,17 +23,13 @@ namespace Laba5_2semestr.Shab
             return $"{hour:D}:{minute:D2}:{second:D2}";
         }
     }
-    public partial class Shab
-    {
-        public void Main()
-        {
             static int TimeSinceMidnight(MyTime t)
             {
                 int seconds = t.hour * 3600 + t.minute * 60 + t.second;
                 return seconds;
             }
 
-            static MyTime TimeSinceMidnight(int t)
+            static MyTime TimeSinceMidnight1(int t)
             {
                 int hours = t / 3600;
                 int minutes = (t % 3600) / 60;
@@ -216,7 +213,7 @@ namespace Laba5_2semestr.Shab
 
 
             }
-            static void Main()
+            public void Main()
             {
             cw:
                 Console.WriteLine("Enter a number of block to do(1 or 2): ");
@@ -281,7 +278,7 @@ namespace Laba5_2semestr.Shab
                 int midnightSeconds = TimeSinceMidnight(time);
                 Console.WriteLine("Time since midnight in seconds: " + midnightSeconds);
 
-                MyTime midnightTime = TimeSinceMidnight(midnightSeconds);
+                MyTime midnightTime = TimeSinceMidnight1(midnightSeconds);
                 Console.WriteLine("Time since midnight: " + midnightTime.ToString());
 
                 MyTime addSecond = AddOneSecond(time);
@@ -309,14 +306,14 @@ namespace Laba5_2semestr.Shab
                 if (diff < 0)
                 {
                     diff = Math.Abs(diff);
-                    Console.WriteLine("Difference between times: " + "-" + TimeSinceMidnight(diff));
+                    Console.WriteLine("Difference between times: " + "-" + TimeSinceMidnight1(diff));
                 }
                 else
                 {
-                    Console.WriteLine("Difference between times: " + TimeSinceMidnight(diff));
+                    Console.WriteLine("Difference between times: " + TimeSinceMidnight1(diff));
                 }
                 Console.WriteLine("What lesson is now? Now is: " + WhatLesson(time));
             }
         }
     }
-}
+
